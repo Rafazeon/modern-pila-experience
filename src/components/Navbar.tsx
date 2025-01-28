@@ -20,7 +20,7 @@ const Navbar = () => {
             <a href="/" className="text-gray-700 hover:text-primary transition-colors">
               Início
             </a>
-            <a href="#benefits" className="text-gray-700 hover:text-primary transition-colors">
+            <a href="/benefits" className="text-gray-700 hover:text-primary transition-colors">
               Benefícios
             </a>
             <a href="/about" className="text-gray-700 hover:text-primary transition-colors">
@@ -70,7 +70,7 @@ const Navbar = () => {
                 Início
               </a>
               <a
-                href="#benefits"
+                href="/benefits"
                 className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
               >
                 Benefícios
