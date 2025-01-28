@@ -105,6 +105,31 @@ const Benefits = () => {
         </div>
       </section>
 
+      {/* Phone with QR Code Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col items-center justify-center">
+            <div className="relative w-64 h-[500px] bg-gray-100 rounded-[3rem] border-4 border-gray-200 shadow-xl">
+              {/* Phone Frame */}
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-200 rounded-b-2xl" />
+              {/* Screen Content */}
+              <div className="absolute top-12 left-4 right-4 bottom-12 bg-white rounded-2xl p-4 flex flex-col items-center justify-center">
+                {/* QR Code (placeholder) */}
+                <div className="w-32 h-32 bg-gray-800 rounded-lg mb-4" />
+                <div className="text-sm text-gray-600 text-center">
+                  Escaneie para pagar
+                </div>
+              </div>
+              {/* Home Button */}
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 w-12 h-12 rounded-full border-2 border-gray-300" />
+            </div>
+            <h3 className="text-2xl font-bold text-gray-900 mt-8">
+              Pila Benefícios
+            </h3>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Grid */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
