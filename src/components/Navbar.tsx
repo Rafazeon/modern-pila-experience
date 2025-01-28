@@ -17,7 +17,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-gray-700 hover:text-primary transition-colors">
+            <a href="/" className="text-gray-700 hover:text-primary transition-colors">
               Início
             </a>
             <a href="#benefits" className="text-gray-700 hover:text-primary transition-colors">
@@ -64,7 +64,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <a
-                href="#"
+                href="/"
                 className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
               >
                 Início
