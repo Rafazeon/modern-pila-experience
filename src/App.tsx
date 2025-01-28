@@ -3,7 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { MessageSquare } from "lucide-react";
+import { BsWhatsapp } from "react-icons/bs";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Benefits from "./pages/Benefits";
@@ -32,7 +32,7 @@ const App = () => (
           className="fixed bottom-8 right-8 bg-primary hover:bg-primary/90 text-white p-4 rounded-full shadow-lg transition-transform hover:scale-110 z-50 flex items-center justify-center"
           aria-label="Contact us on WhatsApp"
         >
-          <MessageSquare className="w-6 h-6" />
+          <BsWhatsapp className="w-6 h-6" />
         </a>
       </BrowserRouter>
     </TooltipProvider>
