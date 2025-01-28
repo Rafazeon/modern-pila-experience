@@ -18,19 +18,19 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#" className="text-gray-700 hover:text-primary transition-colors">
-              Home
+              Início
             </a>
             <a href="#benefits" className="text-gray-700 hover:text-primary transition-colors">
-              Benefits
+              Benefícios
             </a>
             <a href="#about" className="text-gray-700 hover:text-primary transition-colors">
-              About
+              Sobre
             </a>
             <a href="#contact" className="text-gray-700 hover:text-primary transition-colors">
-              Contact
+              Contato
             </a>
             <Button className="bg-primary hover:bg-primary/90">
-              Join Pila
+              Junte-se à Pila
             </Button>
           </div>
 
@@ -53,28 +53,28 @@ const Navbar = () => {
                 href="#"
                 className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
               >
-                Home
+                Início
               </a>
               <a
                 href="#benefits"
                 className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
               >
-                Benefits
+                Benefícios
               </a>
               <a
                 href="#about"
                 className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
               >
-                About
+                Sobre
               </a>
               <a
                 href="#contact"
                 className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
               >
-                Contact
+                Contato
               </a>
               <Button className="w-full bg-primary hover:bg-primary/90 mt-4">
-                Join Pila
+                Junte-se à Pila
               </Button>
             </div>
           </div>
