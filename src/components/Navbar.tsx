@@ -29,9 +29,15 @@ const Navbar = () => {
             <a href="#contact" className="text-gray-700 hover:text-primary transition-colors">
               Contato
             </a>
-            <Button className="bg-primary hover:bg-primary/90">
-              Junte-se à Pila
-            </Button>
+            <a 
+              href="https://empresa.pilabeneficios.com.br/register" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-primary hover:bg-primary/90">
+                Junte-se à Pila
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Navigation Button */}
@@ -73,9 +79,15 @@ const Navbar = () => {
               >
                 Contato
               </a>
-              <Button className="w-full bg-primary hover:bg-primary/90 mt-4">
-                Junte-se à Pila
-              </Button>
+              <a 
+                href="https://empresa.pilabeneficios.com.br/register" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button className="w-full bg-primary hover:bg-primary/90 mt-4">
+                  Junte-se à Pila
+                </Button>
+              </a>
             </div>
           </div>
         )}
