@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Globe, ArrowUp, Leaf, Star, Lightbulb, Users } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -149,9 +148,6 @@ const AboutPage = () => {
             Faça parte de uma transformação digital que valoriza inovação, sustentabilidade e
             acessibilidade.
           </p>
-          <Button size="lg" className="bg-primary hover:bg-primary/90">
-            Saiba Mais
-          </Button>
         </div>
       </section>
 
