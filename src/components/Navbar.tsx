@@ -30,6 +30,14 @@ const Navbar = () => {
               Contato
             </a>
             <a 
+              href="https://empresa.pilabeneficios.com.br/login" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/90 transition-colors"
+            >
+              Entrar
+            </a>
+            <a 
               href="https://empresa.pilabeneficios.com.br/register" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -78,6 +86,14 @@ const Navbar = () => {
                 className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
               >
                 Contato
+              </a>
+              <a
+                href="https://empresa.pilabeneficios.com.br/login"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-3 py-2 text-primary hover:text-primary/90 transition-colors"
+              >
+                Entrar
               </a>
               <a 
                 href="https://empresa.pilabeneficios.com.br/register" 
