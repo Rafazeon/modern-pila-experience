@@ -17,19 +17,20 @@ const Footer = () => {
             <p className="text-gray-400">
               Transformando a gestão de benefícios com soluções digitais.
             </p>
-            <Dialog>
-              <DialogTrigger asChild>
-                <button className="text-gray-400 hover:text-white transition-colors">
-                  Política de Privacidade
-                </button>
-              </DialogTrigger>
-              <DialogContent className="max-w-3xl max-h-[80vh] overflow-y-auto">
-                <DialogHeader>
-                  <DialogTitle className="text-2xl font-bold text-center mb-6">
+            <div className="space-y-2">
+              <Dialog>
+                <DialogTrigger asChild>
+                  <button className="block text-gray-400 hover:text-white transition-colors">
                     Política de Privacidade
-                  </DialogTitle>
-                </DialogHeader>
-                <div className="space-y-6 text-gray-700">
+                  </button>
+                </DialogTrigger>
+                <DialogContent className="max-w-3xl max-h-[80vh] overflow-y-auto">
+                  <DialogHeader>
+                    <DialogTitle className="text-2xl font-bold text-center mb-6">
+                      Política de Privacidade
+                    </DialogTitle>
+                  </DialogHeader>
+                  <div className="space-y-6 text-gray-700">
                   <div>
                     <h3 className="text-xl font-semibold mb-3">
                       Que informações pedimos e como as usamos
@@ -64,8 +65,98 @@ const Footer = () => {
                     e teremos prazer em responder.
                   </p>
                 </div>
-              </DialogContent>
-            </Dialog>
+                  </div>
+                </DialogContent>
+              </Dialog>
+
+              <Dialog>
+                <DialogTrigger asChild>
+                  <button className="block text-gray-400 hover:text-white transition-colors">
+                    Termos e Condições
+                  </button>
+                </DialogTrigger>
+                <DialogContent className="max-w-3xl max-h-[80vh] overflow-y-auto">
+                  <DialogHeader>
+                    <DialogTitle className="text-2xl font-bold text-center mb-6">
+                      TERMOS DE USO APP PILA BENEFÍCIOS
+                    </DialogTitle>
+                  </DialogHeader>
+                  <div className="space-y-6 text-gray-700">
+                    <p className="leading-relaxed">
+                      Esse Termo de Uso aplica-se ao uso dos serviços oferecidos pelo aplicativo "Pila Benefícios", desenvolvido e de propriedade da CODEFLOW SISTEMAS DE INFORMAÇÃO LTDA, inscrita no CNPJ nº 43.391.138/0001-71.
+                    </p>
+                    <p className="leading-relaxed">
+                      O USUÁRIO (titular de dados) declara que concorda em se submeter integralmente ao presente termo e condições, além de aceitar as disposições do aviso e política de privacidade.
+                    </p>
+                    
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">DO OBJETIVO</h3>
+                      <p className="leading-relaxed">
+                        O objeto do presente Termo de Uso consiste em estabelecer o regulamento para acesso do clientes e parceiros PILA BENEFÍCIOS ao aplicativo "Pila Benefícios" (doravante denominado apenas como aplicativo) de informações e serviços online disponibilizadas pela CODEFLOW SISTEMAS DE INFORMAÇÃO de Cascavel, usando da tecnologia de celular e internet, ou seja, via software aplicativo para aparelho telefônico celular (app).
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">DOS DIREITOS DO TITULAR</h3>
+                      <p className="leading-relaxed">
+                        O Titular tem direito a obter do PILA BENEFÍCIOS, em relação aos seus dados pessoais por nós tratados, a qualquer momento e mediante requisição gratuita: (a) confirmação da existência de tratamento; (b) acesso aos dados; (c) correção de dados incompletos, inexatos ou desatualizados; (d) anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com o disposto na LGPD; (e) portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa, observados os segredos comercial e industrial; (f) eliminação dos dados pessoais tratados com o seu consentimento, exceto nas hipóteses previstas no item 5; (g) informação das entidades públicas e privadas com as quais a PILA BENEFÍCIOS realizou uso compartilhado de dados; (h) informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa; (j) revogação do consentimento, nos termos do art. 8º, § 5º, da LGPD.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">DA ELIMINAÇÃO DOS DADOS PESSOAIS</h3>
+                      <p className="leading-relaxed">
+                        Os dados pessoais serão eliminados após o término de seu tratamento, no âmbito e nos limites técnicos das atividades, autorizada a conservação para as seguintes finalidades: (i) cumprimento de obrigação legal ou regulatória, (ii) estudo por órgão de pesquisa previsto no seu objetivo social ou estatutário, garantida, sempre que possível, a anonimização dos dados pessoais; (iii) transferência a terceiro, desde que respeitados os requisitos de tratamento de dados dispostos na LGPD; (iv) uso dos dados pessoais para prevenção à fraude (art. 11, II, "a", da LGPD); (v) uso dos dados pessoais para proteção ao crédito (art. 7º, X, LGPD) e (vi) atender outros interesses legítimos, em conformidade com o artigo 10 da LGPD.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">POLÍTICA DE SEGURANÇA E PRIVACIDADE</h3>
+                      <p className="leading-relaxed">
+                        Ao concordar com o presente termo de uso, o Cliente PILA BENEFÍCIOS declara ter ciência do Aviso de Privacidade do PILA BENEFÍCIOS, a qual encontra-se disponível no nosso Portal, https: https://www.pilabeneficios.com.br/politica-de-privacidade
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">DO FUNCIONAMENTO DOS SERVIÇOS</h3>
+                      <p className="leading-relaxed">
+                        Para que o serviço seja efetivado é necessário que o usuário baixe e instale o aplicativo "PILA BENEFÍCIOS" em seu aparelho celular tipo smartphone ou tablet com pacote de dados ativado, na Google Play Store (Google) ou AppStore (Apple) e faça o cadastro como indicado anteriormente.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">RESCISÃO E PENALIDADES</h3>
+                      <p className="leading-relaxed">
+                        O usuário que desejar fazer cessar os efeitos do presente Termo de Uso poderá fazê-lo a qualquer momento, através da desativação do aplicativo (app). Para solicitação de ações de correção de dados incompletos, inexatos ou desatualizados, portabilidade de dados, acesso a dados pessoais ou eliminação de dados pessoais deverá ser feita via e-mail: suporte@pilabeneficios.com.br
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">DA PROPRIEDADE INTELECTUAL</h3>
+                      <p className="leading-relaxed">
+                        O presente Termo de Uso concede aos usuários uma licença não exclusiva, não transferível e não sublicenciáveis, para acessar e fazer uso da plataforma e dos serviços por ela disponibilizadas.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-xl font-semibold mb-3">DAS CONDIÇÕES GERAIS</h3>
+                      <p className="leading-relaxed">
+                        O PILA BENEFÍCIOS manterá suporte técnico exclusivamente para o aplicativo e suas funcionalidades. Todo e qualquer déficit no acesso ou utilização do aplicativo que seja decorrente de problemas do aparelho telefônico; do serviço de internet ou telefonia; da incompatibilidade de programas e aplicativos do aparelho telefônico ou do mau uso do mesmo não é de responsabilidade do PILA BENEFÍCIOS e, consequentemente, não será por ela sanado.
+                      </p>
+                      <p className="leading-relaxed mt-4">
+                        Para quaisquer dúvidas ou suporte, entre em contato através do email{" "}
+                        <a 
+                          href="mailto:suporte@pilabeneficios.com.br"
+                          className="text-primary hover:underline"
+                        >
+                          suporte@pilabeneficios.com.br
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </DialogContent>
+              </Dialog>
+            </div>
           </div>
           
           <div>
