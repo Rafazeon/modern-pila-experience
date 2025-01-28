@@ -2,70 +2,74 @@ import { motion } from "framer-motion";
 import { Globe, ArrowUp, Leaf, Star, Lightbulb, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const AboutPage = () => {
   const values = [
     {
-      title: "Innovation & Sustainability",
+      title: "Inovação & Sustentabilidade",
       icon: <Leaf className="w-8 h-8 text-primary" />,
-      brief: "Technology + Sustainability for a better future.",
+      brief: "Tecnologia + Sustentabilidade para um futuro melhor.",
       description:
-        "We develop cutting-edge solutions that integrate technology and sustainability, minimizing environmental impact and promoting a circular economy.",
+        "Desenvolvemos soluções inovadoras que integram tecnologia e sustentabilidade, minimizando o impacto ambiental e promovendo uma economia circular.",
     },
     {
-      title: "Commitment to Excellence",
+      title: "Compromisso com a Excelência",
       icon: <Star className="w-8 h-8 text-primary" />,
-      brief: "High-quality & reliable services.",
+      brief: "Serviços de alta qualidade e confiáveis.",
       description:
-        "We ensure excellence in every service and product, providing reliability and high performance to clients and partners.",
+        "Garantimos excelência em cada serviço e produto, proporcionando confiabilidade e alto desempenho para clientes e parceiros.",
     },
     {
-      title: "Inclusion & Accessibility",
+      title: "Inclusão & Acessibilidade",
       icon: <Globe className="w-8 h-8 text-primary" />,
-      brief: "Democratizing corporate benefits.",
+      brief: "Democratizando benefícios corporativos.",
       description:
-        "We believe that corporate benefits should be accessible to companies of all sizes and their employees, fostering financial inclusion.",
+        "Acreditamos que os benefícios corporativos devem ser acessíveis a empresas de todos os portes e seus colaboradores, promovendo a inclusão financeira.",
     },
     {
-      title: "Ethics & Transparency",
+      title: "Ética & Transparência",
       icon: <Users className="w-8 h-8 text-primary" />,
-      brief: "Acting with integrity in every interaction.",
+      brief: "Atuando com integridade em cada interação.",
       description:
-        "We prioritize transparency, honesty, and integrity in all relationships and operations, building trust with clients and partners.",
+        "Priorizamos a transparência, honestidade e integridade em todos os relacionamentos e operações, construindo confiança com clientes e parceiros.",
     },
     {
-      title: "Customer-Centric Approach",
+      title: "Foco no Cliente",
       icon: <Lightbulb className="w-8 h-8 text-primary" />,
-      brief: "Understanding & meeting client needs.",
+      brief: "Entendendo e atendendo as necessidades dos clientes.",
       description:
-        "We are dedicated to understanding our customers' needs, ensuring continuous improvement and delivering exceptional experiences.",
+        "Somos dedicados a entender as necessidades dos nossos clientes, garantindo melhoria contínua e entregando experiências excepcionais.",
     },
     {
-      title: "Collaboration & Partnerships",
+      title: "Colaboração & Parcerias",
       icon: <Users className="w-8 h-8 text-primary" />,
-      brief: "Building strong connections.",
+      brief: "Construindo conexões fortes.",
       description:
-        "We foster strong partnerships and create a network of value by connecting businesses, employees, and local partners.",
+        "Fomentamos parcerias sólidas e criamos uma rede de valor conectando empresas, colaboradores e parceiros locais.",
     },
   ];
 
   return (
     <div className="min-h-screen bg-white">
+      <Navbar />
+      
       {/* Hero Section */}
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="relative h-[60vh] bg-gradient-to-b from-secondary to-white flex items-center justify-center text-center px-4"
+        className="relative h-[60vh] bg-gradient-to-b from-secondary to-white flex items-center justify-center text-center px-4 pt-16"
       >
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Revolutionizing Corporate Benefits with{" "}
-            <span className="text-primary">Innovation & Sustainability</span>
+            Revolucionando Benefícios Corporativos com{" "}
+            <span className="text-primary">Inovação & Sustentabilidade</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            We're committed to transforming the corporate benefits landscape through digital innovation,
-            sustainable practices, and accessible solutions that empower businesses and their employees.
+            Estamos comprometidos em transformar o cenário de benefícios corporativos através da inovação digital,
+            práticas sustentáveis e soluções acessíveis que empoderam empresas e seus colaboradores.
           </p>
         </div>
       </motion.section>
@@ -80,11 +84,11 @@ const AboutPage = () => {
           >
             <Card className="p-8 h-full">
               <Globe className="w-12 h-12 text-primary mb-4" />
-              <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
+              <h2 className="text-2xl font-bold mb-4">Nossa Missão</h2>
               <p className="text-gray-600">
-                Revolutionizing corporate benefits by providing 100% digital, sustainable, and
-                accessible solutions that simplify management, promote a circular economy, and enhance
-                businesses, employees, and partners.
+                Revolucionar os benefícios corporativos fornecendo soluções 100% digitais, sustentáveis e
+                acessíveis que simplificam a gestão, promovem uma economia circular e valorizam empresas,
+                colaboradores e parceiros.
               </p>
             </Card>
           </motion.div>
@@ -96,11 +100,11 @@ const AboutPage = () => {
           >
             <Card className="p-8 h-full">
               <ArrowUp className="w-12 h-12 text-primary mb-4" />
-              <h2 className="text-2xl font-bold mb-4">Our Vision</h2>
+              <h2 className="text-2xl font-bold mb-4">Nossa Visão</h2>
               <p className="text-gray-600">
-                To be Brazil's leading fintech in digital benefits, recognized for innovation,
-                sustainability, and positive impact—expanding financial inclusion and redefining
-                corporate benefits.
+                Ser a principal fintech do Brasil em benefícios digitais, reconhecida pela inovação,
+                sustentabilidade e impacto positivo—expandindo a inclusão financeira e redefinindo
+                os benefícios corporativos.
               </p>
             </Card>
           </motion.div>
@@ -110,7 +114,7 @@ const AboutPage = () => {
       {/* Values Section */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Core Values</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Nossos Valores</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {values.map((value, index) => (
               <motion.div
@@ -139,17 +143,19 @@ const AboutPage = () => {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">
-            Join Pila in Shaping the Future of Corporate Benefits
+            Junte-se à Pila na Transformação dos Benefícios Corporativos
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Be part of a digital transformation that values innovation, sustainability, and
-            accessibility.
+            Faça parte de uma transformação digital que valoriza inovação, sustentabilidade e
+            acessibilidade.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90">
-            Learn More
+            Saiba Mais
           </Button>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };
