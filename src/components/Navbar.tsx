@@ -11,35 +11,47 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <a href="/" className="text-2xl font-bold text-primary">
-              Pila
+              <img src="/icons/logo.png" alt="Pila" width={150} />
             </a>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/" className="text-gray-700 hover:text-primary transition-colors">
+            <a
+              href="/"
+              className="text-gray-700 hover:text-primary transition-colors"
+            >
               Início
             </a>
-            <a href="/benefits" className="text-gray-700 hover:text-primary transition-colors">
+            <a
+              href="/benefits"
+              className="text-gray-700 hover:text-primary transition-colors"
+            >
               Benefícios
             </a>
-            <a href="/about" className="text-gray-700 hover:text-primary transition-colors">
+            <a
+              href="/about"
+              className="text-gray-700 hover:text-primary transition-colors"
+            >
               Sobre
             </a>
-            <a href="#contact" className="text-gray-700 hover:text-primary transition-colors">
+            <a
+              href="#contact"
+              className="text-gray-700 hover:text-primary transition-colors"
+            >
               Contato
             </a>
-            <a 
-              href="https://empresa.pilabeneficios.com.br/login" 
-              target="_blank" 
+            <a
+              href="https://empresa.pilabeneficios.com.br/login"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-primary/90 transition-colors"
             >
               Entrar
             </a>
-            <a 
-              href="https://empresa.pilabeneficios.com.br/register" 
-              target="_blank" 
+            <a
+              href="https://empresa.pilabeneficios.com.br/register"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Button className="bg-primary hover:bg-primary/90">
@@ -95,9 +107,9 @@ const Navbar = () => {
               >
                 Entrar
               </a>
-              <a 
-                href="https://empresa.pilabeneficios.com.br/register" 
-                target="_blank" 
+              <a
+                href="https://empresa.pilabeneficios.com.br/register"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button className="w-full bg-primary hover:bg-primary/90 mt-4">

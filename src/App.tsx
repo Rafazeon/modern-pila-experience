@@ -3,7 +3,6 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { BsWhatsapp } from "react-icons/bs";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Benefits from "./pages/Benefits";
@@ -23,17 +22,13 @@ const App = () => (
           <Route path="/benefits" element={<Benefits />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        
-        {/* Floating WhatsApp Button */}
-        <a
-          href="https://wa.me/5545999367427?text=Desejo%20conhecer%20mais%20sobre%20o%20pila%20benef%C3%ADcios."
-          target="_blank"
-          rel="noopener noreferrer"
-          className="fixed bottom-8 right-8 bg-primary hover:bg-primary/90 text-white p-4 rounded-full shadow-lg transition-transform hover:scale-110 z-50 flex items-center justify-center"
-          aria-label="Contact us on WhatsApp"
-        >
-          <BsWhatsapp className="w-6 h-6" />
-        </a>
+
+        <link rel="stylesheet" href="https://ebotmaker.ai/chat-widget.css" />
+        <script src="https://ebotmaker.ai/chat-widget.js"></script>
+        <iframe
+          id="chat-container"
+          src="https://ebotmaker.ai/widget/chat/66c0d2129e6181008e266c80"
+        ></iframe>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
